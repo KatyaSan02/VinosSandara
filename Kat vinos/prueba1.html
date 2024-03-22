@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Vinos</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo"></p>
+            <nav>
+                <ul>
+                    <li><a href="#productos">Catálogo</a></li>
+                    <li><a href="#Video">Video</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="productos">
+        <h2>Nuestros Vinos</h2>
+        <section id="nosotros">
+		<div class="nos">
+		<p>Bienvenido a nuestro mundo Sandara.<br><br>Cada botella cuenta una historia única y cada sorbo despierta los sentidos. En nuestra plataforma, te invitamos a explorar el fascinante universo del vino, desde los viñedos más pintorescos hasta las bodegas más prestigiosas. Descubre con nosotros la pasión que impulsa a los enólogos a crear obras maestras que deleitan paladares en todo el mundo. Sumérgete en nuestra selección cuidadosamente curada y déjate llevar por el encanto y la elegancia que solo el vino puede ofrecer.<br><br><br> ¡Bienvenido a una experiencia sensorial inolvidable!</p>
+</div>
+        
+        <div class="tarjetas-container">
+            <div class="tarjeta">
+                <img src="imagen1.jpg" alt="Imagen 1">
+                <p>Sandara Rose</p>
+                <button onclick="window.location.href='https://sandara.es/sandara-rosado/'">OPCIÓN COMPRA</button>
+            </div>
+            <div class="tarjeta">
+                <img src="imagen2.jpg" alt="Imagen 2">
+                <p>Sandara Blanco</p>
+                <button onclick="window.location.href='https://sandara.es/sandara-blanco/'">OPCIÓN COMPRA</button>
+            </div>
+                <div class="tarjeta">
+                    <img src="imagen3.png" alt="Imagen 3">
+                    <p>Sandara Premium Sangria</p>
+                    <button onclick="window.location.href='https://sandara.es/sandara-premium-sangria/'">OPCIÓN COMPRA</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagen4.jpg" alt="Imagen 4">
+                    <p>Sandara Wine Mojito</p>
+                    <button onclick="window.location.href='https://www.pricesmart.com/site/hn/es/pagina-producto/351518'">OPCIÓN COMPRA</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="imagen5.jpg" alt="Imagen 5">
+                    <p>Sandara Sparkling Rose</p>
+                    <button onclick="window.location.href='https://www.amazon.es/Sandara-Blanco-Espumoso-Botellas-750/dp/B08K3ZHH3T'">OPCIÓN COMPRA</button>
+                </div>
+    </section>
+
+    <br><br><br><br><br><br>
+    
+    <section id="Video">
+        <div class="container">
+            <div class="video-container">
+                <br><br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vn-B237Gops?si=ZSpmX6JDuXcFM6nH" frameborder="0" allowfullscreen></iframe>
+                <br><br><br><br><br><br>
+            </div>
+            <div class="texto-container">
+                <h2>Viñedo Español Aliado</h2>
+                <p>Observamos nuestro mayor terreno de donde provienen los Sandara Premium Sangria, una reserva en las mejores condiciones que junto a la producción logran nuestro producto por excelencia...</p>
+                <br><br><br>
+                <button onclick="window.location.href='https://maps.app.goo.gl/K4d93RcV6KpMfBps6'">¡Ver Ubicación!</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto">
+        <h2>Contactanos!</h2>
+        <div class="contacto-container">
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+    
+                <label for="celular">Número de celular:</label>
+                <input type="text" id="celular" name="celular" required>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+
+    <footer>
+        <p class="logo">Viñedos Sandara</p>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#productos">Nuestros Vinos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <p>&copy; 2024 Viñedos Sandara. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

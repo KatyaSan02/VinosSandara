@@ -1,0 +1,187 @@
+
+        /* Estilos generales */
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            h1{ font-size: 3.5em;}
+            h2{ font-size: 2.7em;}
+        }
+
+        /* Encabezado */
+        header {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            background-color:#610d0e;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            h1{ font-size: 3.5em;}
+            h2{ font-size: 2.7em;}
+        }
+        header .logo{
+            align-items: center;
+            margin: 0;
+            padding: 40px 40px;
+            background-image: linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0),
+                rgba(255, 255, 255, 0)
+            )
+            ,url("logo-head.png");
+            background-repeat: no-repeat;
+            background-size: 80px 60px;
+            background-position: right;
+        }
+
+        header .container{
+            background-color: #610d0e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                height: 18vh;
+                background-image: linear-gradient(
+                    0deg,
+                    rgba(0,0,0,0.5),
+                    rgba(0,0,0,0.5)
+                )
+                ,url("vinedos-con-hotel.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+        }
+
+        /* Navegación */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        header a:hover{
+            color: #d6a323;
+        }
+
+        /* Secciones */
+        .productos, .contacto {
+            padding: 2rem;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: #fdfdfd;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Enlaces en el footer */
+        footer a {
+            color:#fdfdfd;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        footer a:hover{
+            color: #d6a323;
+        }
+
+        /* Estilo para el logo */
+        .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+
+        .tarjetas-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+
+        /* Tarjeta individual */
+        .tarjeta {
+            border: 1px solid #610d0e;
+            border-radius: 8px;
+            padding: 1rem;
+            width: calc(20% - 1rem); /* Distribuir en 5 columnas */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Imagen */
+        .tarjeta img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Texto */
+        .tarjeta p {
+            font-size: 14px;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Botón */
+        .tarjeta button {
+            background-color: #46494b;
+            color: #c5af32;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tarjeta button:hover {
+            background-color: #610d0e;
+        }
+
+
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+            background-color: #333;
+            color: #fdfdfd;
+        }
+
+        /* Video de YouTube */
+        .video-container {
+            flex: 1;
+            max-width: 70%;
+        }
+
+        /* Texto a la derecha del video */
+        .texto-container {
+            flex: 1;
+            padding-left: 2rem;
+        }
+
+        /* Estilos del botón interactivo */
+        .texto-container button  {
+            background-color: #46494b;
+            color: #c5af32;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton-interactivo:hover {
+            background-color: #610d0e;
+        }
